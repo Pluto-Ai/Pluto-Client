@@ -6,7 +6,7 @@ import socket
 import subprocess
 import pkgutil
 import logging
-import pip.req
+from pip._internal.req import parse_requirements
 import jasperpath
 if sys.version_info < (3, 3):
     from distutils.spawn import find_executable
@@ -104,7 +104,7 @@ def get_pip_requirements(fname=os.path.join(jasperpath.LIB_PATH,
     """
     logger = logging.getLogger(__name__)
     if os.access(fname, os.R_OK):
-        reqs = list(pip.req.parse_requirements(fname))
+        reqs = list(parse_requirements(fname))
         logger.debug("Found %d PIP requirements in file '%s'", len(reqs),
                      fname)
         return reqs

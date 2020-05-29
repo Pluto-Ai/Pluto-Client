@@ -31,6 +31,7 @@ except ImportError:
 try:
     import gtts
 except ImportError:
+    print("error importing gtts")
     pass
 
 try:
