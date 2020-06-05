@@ -1,23 +1,16 @@
-Jasper was originally created by Shubhro Saha and Charles Marsh in early 2014.
-In August 2014, the core development team has been joined by Jan Holthuis.
+Pluto was originally created by J-dogcoder and ppmclala in early 2020 as a modified version of the Jasper Project.
+You can find the information on the jasper project [here.](https://jasperproject.github.io/documentation/)
 
-    Jan Holthuis <jan.holthuis@ruhr-uni-bochum.de>
-    Charles Marsh <crmarsh@princeton.edu>
-    Shubhro Saha <saha@princeton.edu>
+Here is a list of contributors, that helped to improve Pluto. 
 
-Here is a probably incomplete list of contributors, that helped to improve
-Jasper. Thanks a lot!
-
-    Alex Bate <alex@alexbate.co.uk>
-    Andy Buckingham <andy@andybee.com>
-    David Celis <me@davidcel.is>
-    Cedric Claidiere
-    dag0310
-    Alex Siri
-    Andrew Stahlman <andrew.stahlman@gmail.com>
-    James Timmons
-
-*Please alphabetize new entries*
-
+   [ppmclacla](https://github.com/ppmclala)
+   
+   [j-dogcoder](https://github.com/j-dogcoder) 
+   
+   [tuckerhill802](https://github.com/tuckerhill802) 
+    
 We'd also like to thank all the people who reported bugs, helped
-answer newbie questions, and generally made Jasper better.
+answer questions, and generally made Pluto better.
+
+A special thanks to all the original Jasper Project core team.
+[Shubhro Saha](http://www.shubhro.com), [Charles Marsh](http://www.crmarsh.com) and [Jan Holthuis](http://homepage.ruhr-uni-bochum.de/Jan.Holthuis/).
