@@ -18,7 +18,7 @@ from client.conversation import Conversation
 # Add jasperpath.LIB_PATH to sys.path
 sys.path.append(jasperpath.LIB_PATH)
 
-parser = argparse.ArgumentParser(description='Jasper Voice Control Center')
+parser = argparse.ArgumentParser(description='Pluto Voice Control Center')
 parser.add_argument('--local', action='store_true',
                     help='Use text input instead of a real microphone')
 parser.add_argument('--no-network-check', action='store_true',
