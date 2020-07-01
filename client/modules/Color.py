@@ -5,7 +5,7 @@ import re
 WORDS = ["FAVORITE", "COLOR"]
 
 def handle(text, mic, profile):
-    mic.say("Raw Orange")
+    mic.say("Blue")
 
 
 def isValid(text):
