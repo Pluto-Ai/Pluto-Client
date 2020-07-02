@@ -123,8 +123,7 @@ class Jasper(object):
 if __name__ == "__main__":
 
     print("*******************************************************")
-    print("*                   Pluto Ai Assistant)
-   
+    print("*                   Pluto Ai Assistant                *")
     print("*******************************************************")
 
     logging.basicConfig()
@@ -135,7 +134,7 @@ if __name__ == "__main__":
         logger.setLevel(logging.DEBUG)
 
     if not args.no_network_check and not diagnose.check_network_connection():
-        logger.warning("Network not connected. This may prevent Jasper from " +
+        logger.warning("Network not connected. This may prevent Pluto from " +
                        "running properly.")
 
     if args.diagnose:
