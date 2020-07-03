@@ -6,7 +6,7 @@ from client import jasperpath
 WORDS = ["RIDDLE","RIDDLES"]
 
 def getRiddle():
-    return "The person who makes it does not want it,the who person buys it does not use it, the person who uses it does not know they are using it. What is it?"
+    return "The person who makes it does not want it,the person  who person buys it does not use it, the person who uses it does not know they are using it. What is it?"
 
 def handle(text, mic, profile):
     """
